@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Basic blog functionality for Meteor.js applications",
-  version: "1.0.0",
+  version: "1.0.1",
   git: "https://github.com/bredikhin/meteor-posts"
 });
 
