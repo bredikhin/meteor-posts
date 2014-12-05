@@ -14,6 +14,10 @@ Package.onUse(function(api) {
   ], 'client');
   api.addFiles(['posts.js', 'collections/posts.js'], ['client', 'server']);
   api.addFiles(['server/publications.js'], 'server');
+
+  if (api.export) {
+    api.export('Posts');
+  }
 });
 
 Package.onTest(function(api) {
